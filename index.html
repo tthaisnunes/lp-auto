@@ -1,0 +1,914 @@
+<!doctype html> <!-- html5 -->
+<html>
+<head>
+	<meta http-equiv="x-ua-compatible" content="IE=Edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" />
+	<link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg"/>
+	<title>Porto Seguro - Auto</title>
+	<meta name="robots" content="noindex, nofollow" />
+	<meta http-equiv="Cache-control" content="public" />
+
+	<style>
+		@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+			.carousel-inner .item-inner img {
+				height: 190px;
+				max-height: 190px;
+				padding: 40px 0;
+				max-width: 100%;
+				padding-left: 20px;
+			}
+		}
+
+		body{margin:0;}
+		*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+		.row{margin-right:-15px;margin-left:-15px;}
+		.container{position:relative;width:100%;}
+		.navbar-default .navbar-brand{width:100%}
+		.navbar-brand>img{width:120px;margin:0 auto}
+		.navbar-header .navbar-brand{height:70px}
+		.container .navbar-default{background-color:#fff;border:none}
+		header{background-image:url(images/img-banner-mobile.jpg);background-repeat:no-repeat;background-position:47% 55px;background-color:#d5e5f5;position:relative;padding-bottom:14px;border-bottom:solid #00314c 5px}
+		.header-cta{margin-top:250px;width:100%;}
+		header h1{font-family:"No. Seven";margin-top:0;margin-bottom:0;}
+		header h2{font-family:'Arvo regular';font-size:13px;line-height:1.1;color:#0e314c;margin-top:0}
+		header h2 strong,header p.obs{color:#009fe3;font-family:"Arvo bold"}
+		header h2 strong{font-size:11px}
+		header p.obs{text-align:center;width:100%;left:0;margin-bottom:7px;}
+		header img{width:100%;max-width:210px;}
+		.btn-action:focus,.btn-action:hover{text-decoration:none;background:#e6b944}
+		.btn-action{background:#fec021;line-height:10px;display:table;margin:0 auto;padding:10px 20px;border-radius:20px;left:15%;text-align:center;width:70%;font-family:"Arvo bold";text-transform:uppercase;color:#0e304c;font-size:13px;white-space:nowrap;}
+		@media (min-width:768px){header{background:url(images/img-banner-desk.jpg) center 50px;background-size:auto 100%;height:780px}
+		header h1{margin-bottom:0}
+		.header-cta{margin-top:372px;}
+		header .btn-action{left:0}
+		header img{max-width:240px;}
+		header h2,header h2 strong{font-size:14px;line-height:1.1;margin-top:20px;}
+	}
+	@media (min-width:1024px){.br-desk,p.obs span:not('.name-porto'){display:block}
+	header h2,header h2 strong{font-size:17px;line-height:1.1;margin-top:20px;}
+	.btn-action{padding:15px 40px;bottom:25px}
+	p.obs span{color:#10314b;font-size:18px;}
+	header p.obs{left:0;font-size:18px;margin-bottom:14px;}
+}	
+</style>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">
+						<img alt="logo" src="images/logo.svg">
+					</a>
+				</div>
+			</div>
+		</nav>
+		<!-- end nav -->
+		<section class="container">
+			<div class="row">
+				<div class="col-xs-8 col-xs-offset-4 col-sm-6 col-sm-offset-5 col-md-4 col-md-offset-5 col-lg-3 col-lg-offset-5">
+					<h1><img src="images/title-header.png" alt="A torneira estourou?"></h1>
+				</div>
+				<div class="col-xs-5 col-xs-offset-7 col-sm-4 col-sm-offset-6">
+					<h2>
+						Quem tem <span class="br-mobile"></span>
+						<strong><span class="name-porto" style="white-space:nowrap;">Porto Seguro</span> Auto</strong>
+						<span class="br-mobile"></span>
+						<span class="br-desk"></span>
+						resolve tudo <span class="br-mobile"></span>
+						sem sair do sofá.
+					</h2>
+				</div>
+			</div>
+			<div class="header-cta">
+				<div class="row">
+					<p class="obs">
+						<span class="hidden-xs hidden-sm">
+							Mude para um seguro que vai muito além do seu carro.
+						</span>
+						<span class="br-desk"></span>
+						Mude para o
+						<span class="name-porto" style="white-space:nowrap;">Porto Seguro</span>
+						Auto.
+					</p>
+					<div class="col-md-offset-4 col-md-4 col-sm-6 col-sm-offset-3 hidden-xs hidden-sm">
+						<a href="javascript:void(0);" onclick="$('#bmc-item-2').click();" class="btn-action" id="cta-desk-cotacao1">
+							Faça uma cotação
+						</a>
+					</div>
+					<div class="col-md-offset-4 col-md-4 col-sm-6 col-sm-offset-3 hidden-md hidden-lg">
+						<a href="javascript:void(0);" onclick="$('#bmc-item-2').click();" class="btn-action" id="cta-mobile-cotacao1">
+							Faça uma cotação
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end section .container-->
+	</header>
+	<!-- end header -->
+	<section class="content-benefits">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-11">
+					<h2><strong>Benefícios para</strong> Segurados auto.</h2>
+				</div>
+				<div class="col-md-12 col-sm-11">
+					<h3>
+						Quem tem
+						<strong>
+							<span class="name-porto" style="white-space:nowrap;">Porto Seguro</span>
+							Auto
+						</strong>
+						<span class="br-mobile"></span>
+						resolve tudo sem sair do sofá.
+					</h3>
+				</div>
+			</div>
+			<div id="carousel-example-generic" class="carousel slide hidden-sm" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="6"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="7"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="8"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="9"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="10"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="11"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-01.svg?r=1" alt="" class="img-responsive">
+								</div>
+								<div class="col-xs-12">
+									<h4>
+										Assistência 24h
+									</h4>
+									<p>
+										Central de atendimento disponível a qualquer hora do dia caso ocorra algum problema.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .item -->
+
+					<div class="item">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-02.svg" alt="">
+								</div>
+								<div class="col-xs-12">
+									<h4>
+										Reparo hidráulico
+									</h4>
+									<p>
+										Serviços emergenciais a residência, com mão de obra gratuita para reparos de vazamentos hidráulicos.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .item -->
+
+					<div class="item">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-03.svg" alt="">
+								</div>
+								<div class="col-xs-12">
+									<h4>
+										Reparo elétrico
+									</h4>
+									<p>
+										Mão de obra gratuita para reparos em interruptores e tomadas, troca de chuveiros, entre outros.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .item -->
+
+					<div class="item">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-04.svg" alt="">
+								</div>
+								<div class="col-xs-12">
+									<h4>
+										Helpdesk<sup>1</sup>
+									</h4>
+									<p>
+										Assistência e reparos emergenciais para computador, notebook, tablet, videogame, smartphone ou smart TV.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .item -->
+
+					<div class="item">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-07.svg" alt="">
+								</div>
+								<div class="col-xs-12">
+									<h4>
+										Chaveiro
+									</h4>
+									<p>
+										Serviços para fechaduras em residências e veículos, como: abertura, conserto, instalação e troca de segredo.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .item -->
+
+					<div class="item">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-20.svg" alt="">
+								</div>
+								<div class="col-xs-12">
+									<h4>
+										Carro reserva<sup>2</sup> 
+									</h4>
+									<p>
+										Em caso de sinistro, opte pelo carro reserva, desconto na franquia <sup>3</sup> ou créditos para corrida de táxi<sup>4</sup>.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .item -->
+
+					<div class="item">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-05.svg" alt="">
+								</div>
+								<div class="col-xs-12">
+									<h4>
+										Consulta veterinária
+									</h4>
+									<p>
+										Uma rede de clínicas veterinárias disponível para o agendamento de consultas, com retorno em até 15 dias.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .item -->
+
+					<div class="item">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-06.svg" alt="">
+								</div>
+								<div class="col-xs-12">
+									<h4>
+										Assistência para bike
+									</h4>
+									<p>
+										Um serviço de assistência dia e noite para quebra de corrente, pneu furado e montagem.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .item -->
+
+					<div class="item">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-21.svg" alt="">
+								</div>
+								<div class="col-xs-12">
+									<h4>
+										Reparo de ar condicionado
+									</h4>
+									<p>
+										Reparo em condicionadores de ar de Janela ou Split para problemas mecânicos e elétricos.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .item -->
+
+					<div class="item">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-19.svg" alt="">
+								</div>
+								<div class="col-xs-12">
+									<h4>
+										Desentupimento
+									</h4>
+									<p>
+										Mão de obra necessária para o desentupimento em tubulação de esgoto de pias, sifões, ralos, entre outros.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .item -->
+
+					<div class="item">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-18.svg" alt="">
+								</div>
+								<div class="col-xs-12">
+									<h4>
+										Reparo de linha branca
+									</h4>
+									<p>
+										Reparos em eletrodomésticos de linha branca, como: máquina de lavar, geladeira, micro-ondas, entre outros.
+									</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- end .item -->
+
+					<div class="item">
+						<div class="content-item-mobile">
+							<div class="row">
+								<div class="col-xs-12">
+									<img src="images/icon-22.svg" alt="">
+								</div>
+								<div class="col-xs-12">
+									<h4> 
+										Centro automotivo
+									</h4>
+									<p>
+										Diagnósticos e serviços gratuitos ao veículo em mais de 270 Centros Automotivos <span class="name-porto" style="white-space:nowrap;">Porto Seguro</span> em todo Brasil.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .item -->
+					<!-- <small>
+						Informações reduzidas. Consulte as Condições Gerais para detalhamento dos serviços de utilização, exclusões, regiões
+						de abrangência e coberturas. Mão de obra gratuita para reparos. Peças não inclusas. Para mais informações, consulte seu Corretor.
+					</small> -->
+				</div>
+			</div>
+			<!-- end .carousel -->
+
+			<div id="carousel-2" class="carousel slide hidden-xs" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-2" data-slide-to="1"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<div class="row">			
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-01.svg?r=1" alt="" class="img-responsive">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<h4>
+													Assistência 24h
+												</h4>
+												<p>
+													Central de atendimento disponível a qualquer hora do dia caso ocorra algum problema.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-02.svg" alt="">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<h4>
+													Reparo hidráulico
+												</h4>
+												<p>
+													Serviços emergenciais a residência, com mão de obra gratuita para reparos de vazamentos hidráulicos.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-03.svg" alt="">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<h4>
+													Reparo elétrico
+												</h4>
+												<p>
+													Mão de obra gratuita para reparos em interruptores e tomadas, troca de chuveiros, entre outros.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-04.svg" alt="">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<h4>
+													Helpdesk<sup>1</sup>
+												</h4>
+												<p>
+													Assistência e reparos emergenciais para computador, notebook, tablet, videogame, smartphone ou smart TV.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-07.svg" alt="">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<h4>
+													Chaveiro
+												</h4>
+												<p>
+													Serviços para fechaduras em residências e veículos, como: abertura, conserto, instalação e troca de segredo.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-20.svg" alt="">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<h4>
+													Carro reserva<sup>2</sup>
+												</h4>
+												<p>
+													Em caso de sinistro, opte pelo carro reserva, desconto na franquia <sup>3</sup> ou créditos para corrida de táxi<sup>4</sup>.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+						</div>
+					</div>
+					<!-- end .item -->
+
+
+					<div class="item">
+						<div class="row">			
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-05.svg" alt="">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<h4>
+													Consulta veterinária
+												</h4>
+												<p>
+													Uma rede de clínicas veterinárias disponível para o agendamento de consultas, com retorno em até 15 dias.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-06.svg" alt="">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<h4>
+													Assistência para bike
+												</h4>
+												<p>
+													Um serviço de assistência dia e noite para quebra de corrente, pneu furado e montagem.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-21.svg" alt="">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<h4>
+													Reparo de ar condicionado
+												</h4>
+												<p>
+													Reparo em condicionadores de ar de Janela ou Split para problemas mecânicos e elétricos.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-19.svg" alt="">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<h4>
+													Desentupimento
+												</h4>
+												<p>
+													Mão de obra necessária para o desentupimento em tubulação de esgoto de pias, sifões, ralos, entre outros.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-18.svg" alt="">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<h4>
+													Reparo de linha branca
+												</h4>
+												<p>
+													Reparos em eletrodomésticos de linha branca, como: máquina de lavar, geladeira, micro-ondas, entre outros.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+
+							<div class="col-md-4 col-sm-6 hidden-xs">
+								<div class="item-inner">
+									<div class="row">
+										<div class="col-xs-5">
+											<img src="images/icon-22.svg" alt="">
+										</div>
+										<div class="col-xs-7">
+											<div class="desk-item">
+												<span>
+													<h4 > 
+														Centro automotivo
+													</h4>
+													<p>
+														Diagnósticos e serviços gratuitos ao veículo em mais de 270 Centros Automotivos <span class="name-porto" style="white-space:nowrap;">Porto Seguro</span> em todo Brasil.
+													</p>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- end .col-md-4 -->
+						</div>
+					</div>
+					<!-- end .item -->
+					<!-- <small>
+						Informações reduzidas. Consulte as Condições Gerais para detalhamento dos serviços de utilização, exclusões, regiões
+						de abrangência e coberturas. Mão de obra gratuita para reparos. Peças não inclusas. Para mais informações, consulte seu Corretor.
+					</small> -->
+				</div>				
+			</div>
+
+			<!-- end #carousel-2 -->
+			<div class="content-action">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6">
+						<h4>Tenha esses benefícios você também</h4>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<a href="javascript:void(0);" onclick="$('#bmc-item-2').click();" class="btn-action hidden-md hidden-lg" id="cta-mobile-cotacao2">
+							SOLICITE UMA COTAÇÃO
+						</a>
+						<a href="javascript:void(0);" onclick="$('#bmc-item-2').click();" class="btn-action hidden-sm hidden-xs" id="cta-desk-cotacao2">
+							SOLICITE UMA COTAÇÃO
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end section.content-benefits -->
+	<section class="content-video">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-xs-12 col-sm-11">
+					<h2>
+						<strong>Conheça o Ruy e a Bel</strong>
+						e saiba porque
+						<span class="br-desk"></span>
+						eles são segurados
+						<span class="name-porto" style="white-space:nowrap;">Porto Seguro</span>
+						Auto
+					</h2>
+				</div>
+				<div class="content-tabs col-md-6 col-xs-12 no-padding-mobile">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active ruy">
+							<a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+								Veja o vídeo<br />
+								do <span></span>
+							</a>
+						</li>
+						<li role="presentation" class="bel">
+							<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+								Veja o vídeo<br />
+								da <span></span>
+							</a>
+						</li>
+					</ul>
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="home">
+							<div class="border-video">
+								<iframe  src="https://www.youtube.com/embed/2EhskSECqsU" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="profile">
+							<div class="border-video">
+								<iframe  src="https://www.youtube.com/embed/LdCiaRjpb40" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end .row -->
+		</div>
+		<!-- end .container -->		
+	</section>
+	<!-- end .content-video -->
+	<section class="discount">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<h2>
+						<strong>Tenha descontos exclusivos</strong>
+						<br />
+						no <span class="name-porto" style="white-space:nowrap;">porto seguro</span> auto.
+					</h2>
+				</div>
+				<div class="col-xs-12 col-md-6 col-sm-6">
+					<div class="row margin-top">
+						<div class="col-xs-6 col-sm-4">
+							<img src="images/img-transito-mais-gentil.jpg" alt="">
+						</div>
+						<div class="col-xs-6 col-sm-6">
+							<p>
+								<strong>7% de desconto com o Trânsito+gentil<sup>5</sup> :</strong> para condutores sem pontuação na carteira de habilitação.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-md-6 col-sm-6">
+					<div class="row margin-top">
+						<div class="col-xs-6 col-sm-4">
+							<img src="images/img-cartao.jpg" alt="">
+						</div>
+						<div class="col-xs-6 col-sm-6">
+							<p>
+								<strong>5% de desconto<sup>6</sup> </strong> ao realizar o pagamento do seguro com o Cartão de Crédito
+								<span class="name-porto" style="white-space:nowrap;">Porto Seguro</span>, você tem 5% de desconto.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- end .col-xs-12 -->
+			</div>
+		</div>
+	</section>
+	<!-- end .discount -->
+	<section class="get-the-app">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 hidden-md">
+					<h2>
+						<strong>já tem <span class="name-porto" style="white-space:nowrap;">Porto Seguro</span> Auto?</strong>
+						para solicitar os benefícios você só precisa:
+					</h2>
+					<a href="http://www.portoseguro.com.br/servicos/aplicativos-porto-seguro/aplicativo-porto-seguro-auto" class="btn-baixe-o-app" id="cta-mobile-app" target="_blank">
+						Baixar o aplicativo
+					</a>
+				</div>
+				<div class="hidden-xs hidden-sm col-md-4 col-md-offset-6">
+					<h2>
+						Já tem <span class="name-porto" style="white-space:nowrap;">Porto Seguro</span> Auto? <span class="br-desk"></span>
+						<strong>Solicite todos esses  </strong><span class="br-desk"></span>
+						benefícios sem sair do sofá.
+					</h2>
+					<a href="http://www.portoseguro.com.br/servicos/aplicativos-porto-seguro/aplicativo-porto-seguro-auto" class="btn-baixe-o-app text-center" id="cta-desk-app" target="_blank">
+						Baixar o aplicativo
+					</a>
+					<a href="https://cliente.portoseguro.com.br/portaldecliente" class="btn-baixe-o-app text-center" id="cta-desk-pdc" target="_blank">
+						Acessar portal do cliente
+					</a>
+					<p class="text-center text-tel">ou ligue <a href="4004-76786">4004-porto</a> (4004-76786)</p>
+				</div>
+				<p class="legal-text col-md-12 hidden-xs hidden-sm">
+					Consulte as Condições Gerais de contratação, regiões de abrangência e coberturas. Mão de obra gratuita para reparos. Peças não inclusas. Consulte o detalhamento dos serviços, os limites de utilização e as exclusões de cobertura nas Condições Gerais disponíveis no site http://www.portoseguro.com.br/seguros/seguro-de-veiculos/seguro-de-automovel; 1. Equipamentos de informática, videogames, tvs com acesso à internet, smartphones, instalação de software e solução de problemas com vírus, entre outros; 2. Veículo popular básico de 1.000cc e sem limite de quilometragem; 3. 25% de desconto limitado a R$ 500,00, utilizando oficinas referenciadas; 5. Desconto de 7% com o Trânsito+gentil sobre o prêmio líquido do seguro. Para o desconto ser válido, a habilitação de referência deve ser a mesma do principal condutor do veículo. Válido para o principal condutor. Informações reduzidas. Para mais informações, consulte seu Corretor de seguros. 6. Solicitação do Cartão de Crédito <span style="white-space:nowrap;">Porto Seguro</span> sujeita à análise de crédito. Informações reduzidas. Consulte regras e Condições Gerais no site www.cartaoportoseguro.com.br; Automóvel - CNPJ: 61.198.164/0001-60 - Processo SUSEP: 15414.100233/2004-59 - Valor de Mercado e Valor Determinado. O registro deste plano na SUSEP não implica, por parte da Autarquia, incentivo ou recomendação à sua comercialização. Portoseg S.A. Crédito, Financiamento e Investimento - CNPJ: 04.862.600/0001-10. Central de Relacionamento: 4004-3600 (capitais e regiões metropolitanas) | 0800 727 7477 (demais localidades) | 0800 727 2769 (SAC - cancelamento, reclamações e informações) | 0800 701 5582 (atendimento exclusivo para deficientes auditivos e realizado somente por um telefone especial) | 0800 727 1184 (Ouvidoria), de segunda a sexta-feira, das 8h15 às 18h30, exceto feriados.
+				</p>
+			</div>
+			<!-- end .row -->
+		</div>
+		<!-- end .container -->
+	</section>
+	<!-- end .get-the-app -->
+	<section class="content-legal-text-mobile hidden-md">
+		<p class="legal-text-mobile">
+			Consulte as Condições Gerais de contratação, regiões de abrangência e coberturas. Mão de obra gratuita para reparos. Peças não inclusas. Consulte o detalhamento dos serviços, os limites de utilização e as exclusões de cobertura nas Condições Gerais disponíveis no site http://www.portoseguro.com.br/seguros/seguro-de-veiculos/seguro-de-automovel; 1. Equipamentos de informática, videogames, tvs com acesso à internet, smartphones, instalação de software e solução de problemas com vírus, entre outros; 2. Veículo popular básico de 1.000cc e sem limite de quilometragem; 3. 25% de desconto limitado a R$ 500,00, utilizando oficinas referenciadas; 5. Desconto de 7% com o Trânsito+gentil sobre o prêmio líquido do seguro. Para o desconto ser válido, a habilitação de referência deve ser a mesma do principal condutor do veículo. Válido para o principal condutor. Informações reduzidas. Para mais informações, consulte seu Corretor de seguros. 6. Solicitação do Cartão de Crédito <span style="white-space:nowrap;">Porto Seguro</span> sujeita à análise de crédito. Informações reduzidas. Consulte regras e Condições Gerais no site www.cartaoportoseguro.com.br; Automóvel - CNPJ: 61.198.164/0001-60 - Processo SUSEP: 15414.100233/2004-59 - Valor de Mercado e Valor Determinado. O registro deste plano na SUSEP não implica, por parte da Autarquia, incentivo ou recomendação à sua comercialização. Portoseg S.A. Crédito, Financiamento e Investimento - CNPJ: 04.862.600/0001-10. Central de Relacionamento: 4004-3600 (capitais e regiões metropolitanas) | 0800 727 7477 (demais localidades) | 0800 727 2769 (SAC - cancelamento, reclamações e informações) | 0800 701 5582 (atendimento exclusivo para deficientes auditivos e realizado somente por um telefone especial) | 0800 727 1184 (Ouvidoria), de segunda a sexta-feira, das 8h15 às 18h30, exceto feriados.
+		</p>
+	</section>
+	<!-- end .legal-text-mobile -->
+	<!-- css core -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- js core -->
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/html5shiv.min.js"></script>
+	<script type="text/javascript" src="js/html5shiv-printshiv.min.js"></script>
+	<script type="text/javascript" src="js/respond.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script>
+		//-------------------------------------------------------------------------------
+		//
+		//	Insere a Barra de Multicanal com ou sem o botão de Click to call
+		//
+		//-------------------------------------------------------------------------------
+		//Com botão click to Call:
+		var bmcClicktoCallOn = {"Homolog":false,"Appearance":{"Responsive":true,"BarBgColor":"#e0ddd9","BarFontFamily":"Trebuchet MS, Arial","BarFontSize":"14px","TextItemFontColor":"#464646","TextItemCustomCSS":"padding-left: 14px; padding-right: 10px; font-size: 18px; padding-top: 28px;    margin: -11px 0 0 0; text-transform: uppercase; font-size: 0.9em; padding: 11px 0; width: 100%;","LinkItemBorderColor":"#e0ddd9","LinkItemBgColor":"#ff8900","LinkItemFontColor":"#fff","LinkItemHoverBgColor":"#f85a0c","LinkItemCustomCSS":"font-weight: bold;text-transform: none;","ModalFontFamily":"Arial","ModalFontColor":"#2c267a","ModalTitleFontFamily":"Trebuchet MS, Arial"},"Itens":[{"Mobile":false,"Type":"text","BarSize":"3","Appearance":{},"Meta":{"IdProduto":"102","Referencia":"lp-auto-mg-ruyebel"},"Metrics":{},"Modal":{"Schedule":false},"ClientCheck":{"Enabled":false},"OpenedTime":{"Enabled":false}},{"Mobile":true,"BarText":"<a href=\"tel:08000386242\" style=\"padding:15px  20px;\">Contrate seu seguro agora, ligue <br>\n<span style=\"font-size: 2.1em; line-height: 1em;\">0800 038 6242</span></a>","Type":"text","BarSize":"3","Appearance":{},"Meta":{"Origem":"click-to-call","IdProduto":"102","Referencia":"lp-auto-mg-ruyebel"},"Metrics":{},"Modal":{"Schedule":false},"ClientCheck":{"Enabled":false},"OpenedTime":{"Enabled":false}},{"Mobile":true,"BarText":"Ligamos para você","Type":"ajax","BarSize":"3","BarIcon":"call-white","Appearance":{},"Meta":{"Origem":"ligue-me","IdProduto":"102","Referencia":"lp-auto-mg-ruyebel"},"Metrics":{"GtmOpenEvent":"Ligamos Para você","GtmSubmitEvent":"ligue-me","ConversionCode":"iframe::/include/contato-sucesso.html;;"},"Modal":{"Title":"Ligamos para você","Schedule":false},"ClientCheck":{"Enabled":false},"OpenedTime":{"Enabled":false}},{"Mobile":false,"BarText":"Cotação via Chat","Type":"chat","BarSize":"3","BarIcon":"chat-white","Appearance":{},"Meta":{"Origem":"chat","IdProduto":"102","Referencia":"lp-auto-mg-ruyebel"},"Metrics":{"GtmOpenEvent":"Cotação via Chat","GtmSubmitEvent":"chat"},"Modal":{"Title":"Cotação via Chat","ButtonText":"Entrar","Schedule":false},"ClientCheck":{"Enabled":false},"OpenedTime":{"Enabled":true,"ShowIcon":true,"Default":{"Start":"08:30","End":"21:00"},"Saturday":{"Enabled":true,"Start":"10:00","End":"18:00"},"Sunday":{"Enabled":false},"AlternativeForm":"2","Title":"Atendimento via chat offline","Message":"No momento, nossos corretores não estão disponíveis. Deixe seus dados para que entremos contato o mais breve possível.","Action":"Ligamos para você"}}]};
+		//Sem botão Click to Call:
+		var bmcClicktoCallOff = {"Homolog":false,"Appearance":{"Responsive":true,"BarBgColor":"#e0ddd9","BarFontFamily":"Trebuchet MS, Arial","BarFontSize":"14px","TextItemFontColor":"#464646","TextItemCustomCSS":"padding-left: 14px; padding-right: 10px; font-size: 18px; padding-top: 28px;    margin: -11px 0 0 0; text-transform: uppercase; font-size: 0.9em; padding: 11px 0; width: 100%;","LinkItemBorderColor":"#e0ddd9","LinkItemBgColor":"#ff8900","LinkItemFontColor":"#fff","LinkItemHoverBgColor":"#f85a0c","LinkItemCustomCSS":"font-weight: bold;text-transform: none;","ModalFontFamily":"Arial","ModalFontColor":"#2c267a","ModalTitleFontFamily":"Trebuchet MS, Arial"},"Itens":[{"Mobile":false,"Type":"text","BarSize":"3","Appearance":{},"Meta":{"IdProduto":"102","Referencia":"lp-auto-mg-ruyebel"},"Metrics":{},"Modal":{"Schedule":false},"ClientCheck":{"Enabled":false},"OpenedTime":{"Enabled":false}},{"Mobile":true,"BarText":"<a href=\"tel:08000386242\" style=\"padding: 15px 20px; display:none;\">Contrate seu seguro agora, ligue <br>\n<span style=\"font-size: 2.1em; line-height: 1em;\">0800 038 6242</span></a>","Type":"text","BarSize":"3","Appearance":{},"Meta":{"Origem":"click-to-call","IdProduto":"102","Referencia":"lp-auto-mg-ruyebel"},"Metrics":{},"Modal":{"Schedule":false},"ClientCheck":{"Enabled":false},"OpenedTime":{"Enabled":false}},{"Mobile":true,"BarText":"Ligamos para você","Type":"ajax","BarSize":"3","BarIcon":"call-white","Appearance":{},"Meta":{"Origem":"ligue-me","IdProduto":"102","Referencia":"lp-auto-mg-ruyebel"},"Metrics":{"GtmOpenEvent":"Ligamos Para você","GtmSubmitEvent":"ligue-me","ConversionCode":"iframe::/include/contato-sucesso.html;;"},"Modal":{"Title":"Ligamos para você","Schedule":false},"ClientCheck":{"Enabled":false},"OpenedTime":{"Enabled":false}},{"Mobile":false,"BarText":"Cotação via Chat","Type":"chat","BarSize":"3","BarIcon":"chat-white","Appearance":{},"Meta":{"Origem":"chat","IdProduto":"102","Referencia":"lp-auto-mg-ruyebel"},"Metrics":{"GtmOpenEvent":"Cotação via Chat","GtmSubmitEvent":"chat"},"Modal":{"Title":"Cotação via Chat","ButtonText":"Entrar","Schedule":false},"ClientCheck":{"Enabled":false},"OpenedTime":{"Enabled":true,"ShowIcon":true,"Default":{"Start":"08:30","End":"21:00"},"Saturday":{"Enabled":true,"Start":"10:00","End":"18:00"},"Sunday":{"Enabled":false},"AlternativeForm":"2","Title":"Atendimento via chat offline","Message":"No momento, nossos corretores não estão disponíveis. Deixe seus dados para que entremos contato o mais breve possível.","Action":"Ligamos para você"}}]};
+		//Click to call tem atendimento em horário específico. 
+		function clock() {
+			var now = new Date();
+			var outStr = now.getHours();
+			var outMin = now.getHours();
+			var outSec = now.getSeconds();
+			var outMonth = now.getMonth();
+			var outDate = now.getDate();
+			var weekday=new Array(7);
+			weekday[0]="Sunday";
+			weekday[1]="Monday";
+			weekday[2]="Tuesday";
+			weekday[3]="Wednesday";
+			weekday[4]="Thursday";
+			weekday[5]="Friday";
+			weekday[6]="Saturday";
+			var horaPraMinuto = (outStr*60) + outMin;
+       		//Hora convertida em minutos: 14h = 840 min, 18:30 = 1050 min
+       		var maxHora = (weekday[now.getDay()] == "Saturday") ? 840 : 1050;
+	        if(weekday[now.getDay()] !== "Sunday") { // Dias uteis + sabado
+	            if(horaPraMinuto>maxHora || horaPraMinuto < 480) { //MC offline
+	            	_bmc = bmcClicktoCallOff;
+	            	$('.bmc-container li').eq(0).width('48%');
+	            	$('.bmc-container li').eq(1).hide();
+	            } else if(horaPraMinuto>=480) { //MC online
+	            	_bmc = bmcClicktoCallOn;
+	            	$('.bmc-container li').eq(0).width('22.99%');
+	            	$('.bmc-container li').eq(1).show()
+	            }
+	        }else{ //Domingo
+	        	_bmc = bmcClicktoCallOff;
+	        	$('.bmc-container li').eq(0).width('22.99%');
+	        	$('.bmc-container li').eq(1).show();
+	        }
+	        var timer1 = setTimeout('clock()',0.05);
+	        if($('.bmc-bar').length > 0){
+	        	clearTimeout(timer1)
+	        	var timer2 = setTimeout('clock()', 5000);
+	        }
+	    }
+	    clock();
+	    (function(c,d) { var s = document.createElement(c), c = document.getElementsByTagName(c)[0]; s.type = "text/javascript"; s.async = false; s.src = d; c.parentNode.insertBefore(s,c); })("script","https://institucional.portoseguro.com.br/static-files/Institucional/conteudo/bmc/js/min/bmc.min.js");
+	</script>
+	<style type="text/css">
+		@media (max-width: 767px){
+			.bmc-ctt {
+				height: 140px !important;
+			}
+			.bmc-mod3 {
+				border-bottom: 1px solid #5c5b95 !important;
+			}
+			#footer small {
+				padding: 0 5% 150px 5% !important;
+			}
+		}
+	</style>
+
+
+	<!-- Google Tag Manager LP's -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TNKPKQ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TNKPKQ');</script>
+	<!-- End Google Tag Manager  LP's -->
+	<!-- Google Tag Manager Midia -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TWDBBN"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','midiaLayer','GTM-TWDBBN');</script>
+	<!-- End Google Tag Manager Midia -->
+</body>
+</html>

@@ -1,0 +1,567 @@
+/*Theme options*/
+@font-face {
+	font-family:'Arvo';
+	src:url('../fonts/Arvo-Italic.eot');
+	src:url('../fonts/Arvo-Italic.eot?#iefix') format('embedded-opentype'), url('../fonts/Arvo-Italic.woff') format('woff'), url('../fonts/Arvo-Italic.ttf') format('truetype');
+	font-weight:normal;
+	font-style:italic;
+}
+@font-face {
+	font-family:'Arvo regular';
+	src:url('../fonts/Arvo.eot');
+	src:url('../fonts/Arvo.eot?#iefix') format('embedded-opentype'), url('../fonts/Arvo.woff') format('woff'), url('../fonts/Arvo.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:'Arvo bold';
+	src:url('../fonts/Arvo-Bold.eot');
+	src:url('../fonts/Arvo-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Arvo-Bold.woff') format('woff'), url('../fonts/Arvo-Bold.ttf') format('truetype');
+	font-weight:bold;
+	font-style:normal;
+}
+@font-face {
+	font-family:'Arvo';
+	src:url('../fonts/Arvo-BoldItalic.eot');
+	src:url('../fonts/Arvo-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Arvo-BoldItalic.woff') format('woff'), url('../fonts/Arvo-BoldItalic.ttf') format('truetype');
+	font-weight:bold;
+	font-style:italic;
+}
+img{
+	max-width:100%;
+}
+.br-mobile {
+	display:block;
+}
+.text-center {
+	text-align:center;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family:"Arvo bold";
+	color:#00314c;
+}
+body{
+	font-family:'Arvo regular';
+	margin:0 auto;
+	border-radius:0;
+	border:none;
+	background:#81ccf3;
+}
+header, .content-benefits, .content-video, .discount {
+	margin:0 auto;
+	float:none !important;
+}
+strong {
+	font-family:'Arvo bold';
+}
+sup{
+	font-family: 'Arvo regular';
+	font-weight:100;
+	padding-left:2px;
+	font-size:60%;
+}
+.margin-top{
+	margin-top:20px;
+}
+.navbar-default {
+	background-color:#fff;
+	border-color:transparent;
+	border-radius:0;
+}
+/*content-benefits*/
+.content-benefits {
+	background:#f8ca52;
+	padding-bottom:40px;
+}
+.content-benefits h2 strong{
+	color:#1599e1;
+}
+.content-benefits h2, 
+.content-benefits h3, .content-video h2, .content-video h3{
+	padding-left:10px;
+	float:left;
+	font-size:16.5px;
+	line-height:1.3;
+}
+.content-benefits h2 {
+	margin-bottom:0;
+	text-transform:uppercase;
+	font-size:16.5px;
+	margin-top:40px;
+}
+.content-benefits h3{
+	font-size:15px;
+	margin-top:0;
+	font-family:'Arvo regular';
+	padding-top:2px;
+}
+.content-benefits h3 strong {
+	font-family:"Arvo bold";
+}
+/*carousel*/
+.carousel-inner {
+	margin:20px 0;
+	margin:20px 0 54px;
+}
+.carousel-inner > .item {
+	height:250px;
+}
+.content-item-mobile {
+	display:block;
+	align-items:center;
+	height:100%;
+}
+.carousel-inner .item-inner h4{
+	color:#009fe3;
+}
+.carousel-inner .item-inner img {
+	height:auto;
+	padding:10px 10px;
+	max-height:130px;
+}
+.carousel-indicators{
+	bottom:-50px;
+}
+.carousel-indicators li{
+	width:13px;
+	height:13px;
+	background-color:#fff;
+}
+.carousel-indicators .active {
+	background:url(../images/icon-14.svg) center;
+	border:none;
+	background-size:20px;
+	width:20px;
+	height:20px;
+	margin-bottom:-3px;
+}
+.content-action{
+	background:#0b7fba;
+	border-radius:10px;
+	padding:10px 10px 30px;
+	float:left;
+}
+.content-action h3, .content-action h4{
+	color:#fff;
+	border-left:none;
+	margin-left:0;
+	padding-left:0;
+	text-align:center;
+	font-size:16px;
+	line-height:1.2;
+}
+.content-action .btn-action {
+	left:0%;
+	width:90%;
+	margin-top:10px;
+}
+.content-icon:after{
+	content:"";
+	width:10px;
+	height:10px;
+	background:url(../images/icon-16.svg) center;
+	position:absolute;
+	right:-5px;
+	top:50%;
+}
+.content-icon.no-icon:after{
+	display:none;
+}
+.content-icon.icon-left:before{
+	content:"";
+	width:10px;
+	height:10px;
+	background:url(../images/icon-16.svg) center;
+	position:absolute;
+	left:-5px;
+	top:50%;
+}
+.content-icon img {
+	height:50px;
+	padding:10px 0;
+	width:100%;
+}
+.carousel-indicators {
+	left:30%;
+	width:100%;
+}
+.content-video {
+	background:url(../images/img-bg-video.jpg) top center;
+	min-height:606px;
+	float:left;
+	width:100%;
+}
+.content-tabs {
+	margin-top:240px;
+}
+.nav-tabs>li>a {
+	font-family:'Arvo regular';
+	font-size:16px;
+	line-height:1.1;
+	color:#fff;
+	text-align:center;
+	border:0;
+}
+.nav-tabs>li>a>img {
+	width:90px;
+}
+.nav-tabs>li.active>a {
+	background-color:transparent !important;
+	border:none !important;	
+	color:#0e314c !important;
+}
+.nav-tabs>li span{
+	display:inline-block;
+	width:80px;
+	height:33px;
+	vertical-align:top;
+}
+.nav-tabs>li.ruy {
+	border-right:solid 1px;
+}
+.nav-tabs>li.ruy span {
+	background:url(../images/img-name-ruy.png) center no-repeat;
+	background-size:cover;
+}
+.nav-tabs>li.ruy.active span {
+	background:url(../images/img-name-ruy-active.png) center no-repeat;
+	background-size:cover;
+}
+.nav-tabs>li.bel span {
+	background:url(../images/img-name-bel.png) center no-repeat;
+	background-size:cover;
+}
+.nav-tabs>li.bel.active span {
+	background:url(../images/img-name-bel-active.png) center no-repeat;
+	background-size:cover;
+}
+.nav-tabs>li {
+	width:50%;
+}
+.nav-tabs>li>a{
+	padding-bottom:0;
+	padding-top:0;
+}
+.nav-tabs {
+	border-bottom:none;
+	width:100%;
+	margin:0 auto;
+}
+.tab-content {
+	margin:30px auto;
+	width:100%;
+}
+iframe {
+	width:100%;
+}
+.border-video {
+	border:solid 1px rgba(41, 60, 112, 0.4);
+	padding:5px;
+}
+/*discount*/
+.discount {
+	background-color:#fff;
+}
+.discount h2, .get-the-app h2, .content-video h2{
+	padding-left:10px;
+	float:left;
+	font-size:16px;
+	line-height:1.3;
+	text-transform:uppercase;
+	position:relative;
+}
+.content-benefits h2, .content-benefits h3{
+	position:relative;
+}
+.content-benefits h3::before, .content-benefits h2::before, .discount h2::before, .get-the-app h2::before, .content-video h2::before {
+	content:"";
+	height:88%;
+	width:4px;
+	background:#0e304c;
+	position:absolute;
+	top:4%;
+	left:-3px;
+}
+.content-benefits h2::before{
+	height:100%;
+}
+.discount h2 strong, .get-the-app h2 strong, .content-video h2 strong {
+	color:#1896dd;
+}
+.discount p {
+	font-size:12px;
+	line-height:1.3;
+}
+.discount div img {
+	margin:2% auto;
+	display:block;
+	width:120px;
+}
+.get-the-app {
+	background:url(../images/img-bg-baixe-o-app.jpg) top no-repeat;
+	background-color:#f4f9fd;
+	background-size:cover;
+	min-height:370px;
+	float:left;
+	width:100%;	
+	position:relative;
+}
+.get-the-app h2{
+	margin-top:50px;
+}
+.btn-baixe-o-app {
+	background:#0b7fba;
+	color:#fff;
+	font-size:12px;
+	width:auto;
+	padding:5px 10px;
+	border-radius:3px;
+	margin:20px 0 0 0px;
+	display:inline-block;
+	text-transform:uppercase;
+}
+.btn-baixe-o-app:hover {
+	color:#fff;
+	text-decoration:none;
+	background:#0a6b9c;
+}
+.nav>li>a:focus, 
+.nav>li>a:hover {
+	background-color:transparent;
+	border-color:transparent;
+}
+.legal-footer {
+	background-color:#f4f9fd;
+}
+.legal-text{
+	font-size:9px;
+	text-align:center;
+	display:block;
+	margin-top:80px;
+	padding-bottom:50px;
+}
+.content-item-mobile {
+	width:80%;
+	margin:20px auto;
+}
+.content-legal-text-mobile {
+	float:left;
+	background:#f6fafe;
+	margin-bottom:90px;
+}
+.legal-text-mobile {
+	position:relative;
+	font-size:10px;
+	line-height:1.1;
+	text-align:center;
+	padding:10px;
+}
+.item{
+	background-color:#fdeecc;
+	margin:10px 0;
+	float:left;
+	height:290px;
+	display:block;
+	border-radius:7px;
+}
+.item-inner{
+	background-color:#fdeecc;
+	margin:10px 0;
+	height:290px;
+	border-radius:7px;
+	padding-right:20px;
+	width:100%;
+	display:block;
+}
+.item p{
+	line-height:1.2;
+}
+.item img {
+	max-width:150px;
+	margin:0 auto;
+	display:block;padding:0 10px;
+}
+.item h4{
+	color:#1aa0e0;
+	font-size:18px;
+}
+.item-inner .desk-item {
+	padding:0px 15px 20px;
+}
+@media (min-width:768px){
+	.item-inner .desk-item {
+		padding:0;
+		padding:10px 0;
+	}
+	.carousel-inner > .item {
+		height:auto;
+	}
+	.carousel-inner .item-inner img {
+		height:190px;
+		max-height:190px;
+		padding:40px 0;
+		max-width:100%;
+		padding-left:20px;
+		width: 100%;
+		display: inline-block;
+	}
+	.carousel-inner > .item {
+		background:transparent;
+	}	
+	.content-video {
+		background:#81ccf3;
+		min-height:400px;
+	}
+	.content-tabs {
+		margin-top:60px;
+	}
+	.get-the-app {
+		background:url(../images/img-bg-baixe-o-app.jpg) center;
+		min-height:460px;
+		background-size:cover;
+	}
+	.content-legal-text-mobile {
+		padding:20px;
+	}
+}
+@media (min-width:1024px) {
+	.item-inner {
+		height:190px;
+	}	
+	.item-inner p{
+		font-size:14px;
+		line-height:1.2;
+	}
+	.content-item-mobile{
+		display:flex;
+		width:auto;
+		margin:0 auto;
+	}
+	.br-mobile {
+		display:none;
+	}
+	.br-desk{
+		display:block;
+	}
+	.btn-action {
+		font-size:22px;
+		line-height:22px;
+	}
+	#carousel-example-generic {
+		display:none;
+	}
+	.content-action {
+		margin:10px 0;
+		height:auto;
+		width:100%;
+		padding:20px;
+	}
+	.content-action h4{
+		color:#fff;
+		text-align:center;
+		font-family:'Arvo regular';
+		font-size:22px;
+		line-height:32px;
+	}
+	.content-action .btn-action {
+		bottom:0;
+		width:40%;
+		margin:0;
+	}
+	.content-video {
+		background:url(../images/img-bg-video-desk.jpg) center;
+	}
+	.content-video {
+		min-height:570px;
+	}
+	.discount h2, .get-the-app h2, .content-video h2, .content-video h3{
+		margin-right:0;
+		font-size:20px;
+	}
+	.content-video h2{
+		margin-top:50px;
+	}
+	
+	.content-tabs {
+		margin-top:80px;
+	}
+	iframe {
+		width:100%;
+		height:240px;
+	}
+	.tab-content{
+		width:450px;
+	}
+	.nav-tabs>li>a {
+		color:#a3b7c2;
+	}
+	.nav-tabs>li.bel span {
+		background:url(../images/img-name-bel-desk.png) center no-repeat;
+		background-size:cover;
+	}
+	.nav-tabs>li.ruy span {
+		background:url(../images/img-name-ruy-desk.png) center no-repeat;
+		background-size:cover;
+	}
+	.discount div img {
+		margin:12px 0 30px 10px;
+		width:95%;
+	}
+	.discount p {
+		font-size:16px;
+		line-height:1.3;
+		margin:26px 10px 0 0;
+	}
+	.get-the-app {
+		background:url(../images/img-bg-baixe-o-app-desk.jpg) top;
+		min-height:670px;
+	}
+	.hidden-md {
+		display:none;
+	}
+	.content-benefits h2 {
+		font-size:22px;
+	}
+	.content-benefits h3 {
+		font-size:20px;
+	}
+	.get-the-app h2 {
+		margin-top:220px;
+		margin-bottom:30px;
+	}
+	.btn-baixe-o-app {
+		width:100%;
+		margin:7px 0 7px 0;
+		text-transform:uppercase;
+		font-size:18px;
+	}
+	.text-tel {
+		margin-top:10px;
+		font-family:"Arvo bold";
+		color:#1980b8;
+	}
+	.text-tel a {
+		color:#000;
+	}
+}
+@media (min-width:1200px) {
+	.content-action h4{
+		font-size:25px;
+	}
+}
+
+@media (min-width: 768px) and  (max-width: 1023px) {
+	iframe {
+		width:100%;
+		height: 300px;
+	}
+}
+
+
+.item-inner .col-xs-5{
+	display:inline;
+}
+.item-inner .col-xs-5 img{
+	display: inline-block;
+}
+img[src*=svg] { width/*\**/: 100%\9;}
